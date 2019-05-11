@@ -40,7 +40,7 @@
 
     if (isset($_POST['submit'])) {
         try {
-            $name = $_POST['nama'];
+            $nama = $_POST['nama'];
             $email = $_POST['email'];
             $komentar = $_POST['komentar'];
             $date = date("Y-m-d");
